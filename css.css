@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.TaskManager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 96, 66);
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#task-date {
+    padding: 7px 20px;
+    border: 0;
+    outline: none;
+}
+
+#task-priority {
+    padding: 7px 20px;
+    border: 0;
+    outline: none;
+}
+#task-fliter{
+    padding: 7px 30px;
+    border: 0;
+    outline: none;
+    margin-right: 10px;
+}
+
+.newtask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+/* div to */
+
+#addtask {
+    width: 70%;
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-left: 18%;
+    outline: none;
+}
+
+#btn-t {
+    margin-right: 10px;
+    padding: 8px 45px;
+    border: 0px solid;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 4px;
+}
+
+#search {
+    width: 40%;
+    padding: 6px;
+    margin-left: 5%;
+    outline: none;
+    padding-left: 3%;
+    font-size: 17px;
+    border: 0px solid;
+}
+
+
+/* div work */
+
+#f_work {
+    padding: 20px;
+    margin-top: 55px;
+    background-color: rgb(10, 21, 12);
+    color: white;
+    height: 900px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+
+#data-fliter,#fliter,#f-priorpty {
+    width: 200px;
+    padding: 8px;
+}
+
+#task-list {
+    margin-left: 266px;
+}
+
+.best {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 1000px;
+}
+
+.best.todo {
+    background-color: #025a02;
+    width: 1200px;
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
